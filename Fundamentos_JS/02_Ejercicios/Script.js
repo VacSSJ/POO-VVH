@@ -30,13 +30,15 @@ function declararVariables() {
     let num2 = 24
     let num3 = 37
     let res1 = num1 + num2 + num3
-    let res2 = 
+    let res2 = num1 - num3
+    let res3 = num2 * num3
+    let res4 = num1 / 120
     }
     
     // Ejercicio 4: Manipulación de cadenas
     // Instrucciones: Completa la función para construir un mensaje utilizando las variables 'direccion' y 'n_casa'.
     // Luego, muestra la longitud del mensaje y el antepenúltimo carácter en el mensaje. (.length)
     function manipularCadenas() {
-    
     // Tu código aquí
+    
     }
