@@ -7,17 +7,17 @@ function declararVariables() {
     // Tu código aquí
     let ahora = 2024;
     let fecha_nac = 2004;
-    let edad = ahora - fecha_nac
-    alert("Tu edad es: " + edad)
+    let edad = ahora - fecha_nac;
+    alert("Tu edad es: " + edad);
     }
     
     // Ejercicio 2: Asignación de valores
     // Instrucciones: Completa la función para asignar el valor de 'var1' a 'var2' y luego muestra el valor de 'var2'.
     function asignarValores() {
     // Tu código aquí
-    let var1 = 9
-    let var2 = var1
-    alert("El valor de la variable es: " + var2)
+    let var1 = 9;
+    let var2 = var1;
+    alert("El valor de la variable es: " + var2);
     }
     
     // Ejercicio 3: Operaciones matemáticas
@@ -26,13 +26,14 @@ function declararVariables() {
     // Muestra los resultados en un mensaje.
     function realizarOperaciones() {
     // Tu código aquí
-    let num1 = 9
-    let num2 = 24
-    let num3 = 37
-    let res1 = num1 + num2 + num3
-    let res2 = num1 - num3
-    let res3 = num2 * num3
-    let res4 = num1 / 120
+    let num1 = 9;
+    let num2 = 24;
+    let num3 = 37;
+    let res1 = num1 + num2 + num3;
+    let res2 = num1 - num3;
+    let res3 = num2 * num3;
+    let res4 = num1 / 120;
+    alert("La suma de todas las variables es: " + res1 + "\n La resta es: " + res2 + "\n La multiplicación es: " + res3 + "\n La división es: " + res4)
     }
     
     // Ejercicio 4: Manipulación de cadenas
@@ -40,5 +41,9 @@ function declararVariables() {
     // Luego, muestra la longitud del mensaje y el antepenúltimo carácter en el mensaje. (.length)
     function manipularCadenas() {
     // Tu código aquí
-    
+    let direccion = "Santa Rosa";
+    let n_casa = "8671";
+    let mensaje = "La dirección es: " + direccion + "\n y el número de casa es: " + n_casa;
+    let longitud = mensaje.length;
+    alert("Mensaje: " + mensaje + "\n Longitud: " + longitud + "\n Antepenúltimo Carácter: " + mensaje[54]);
     }
