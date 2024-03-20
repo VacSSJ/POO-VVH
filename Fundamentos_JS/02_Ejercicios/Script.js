@@ -41,9 +41,20 @@ function declararVariables() {
     // Luego, muestra la longitud del mensaje y el antepenúltimo carácter en el mensaje. (.length)
     function manipularCadenas() {
     // Tu código aquí
-    let direccion = "Santa Rosa";
+    let direccion = "Av. Santa Rosa";
     let n_casa = "8671";
     let mensaje = "La dirección es: " + direccion + "\n y el número de casa es: " + n_casa;
     let longitud = mensaje.length;
     alert("Mensaje: " + mensaje + "\n Longitud: " + longitud + "\n Antepenúltimo Carácter: " + mensaje[54]);
+    }
+    // Ejercicio 5: Suma de Valores tomando índices de un arreglo
+    // Sumar el ultimo valor, con el penúltimo más el 1 valor de las posiciones.
+    // Mostrar el resultado en el HTML con un Alert
+    function sumaIndices() {
+        let valor = [1, 2, 3, 4, 5, 6, 7];
+        let ultimoValor = valor[valor.length -1];
+        let penultimoValor = valor[valor.length -2];
+        let primerValor = valor[0];
+        suma = ultimoValor + penultimoValor + primerValor;
+        alert(`La suma del arreglo es: ${suma}`);
     }
