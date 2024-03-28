@@ -1,6 +1,7 @@
 function modificarMensaje(){
     const mensajeInicial = ["Hola", "a", "todos", "los", "estudiantes", "de", "programación", "de", "4to", "C"];
     const mensajeModificado = ["Hola", "a", "todos", "los", "estudiantes", "de", "programación", "de", "4to", "C"];
+
     mensajeModificado.shift();
     mensajeModificado.shift();
     mensajeModificado.unshift("Somos", "Nosotros");
@@ -10,13 +11,17 @@ function modificarMensaje(){
     mensajeModificado.pop();
     mensajeModificado.pop();
     mensajeModificado.push("Los", "mejores", "del mundo");
-    const eliminado = [];
-    eliminado.unshift("Hola", "a");
-    eliminado.push("de", "4to", "C");
-    const agregados = [];
-    agregados.push("Somos", "Nosotros");
-    agregados.push("los", "mejores", "del mundo");
-    alert(`Sin modificacion: \n${mensajeInicial}\n \nCon modificacion: \n${mensajeModificado}\n \nEliminados: \n${eliminado}\n \nAgregadas: \n${agregados}`);
+
+
+            const eliminado = [];
+            eliminado.unshift("Hola", "a");
+            eliminado.push("de", "4to", "C");
+
+            const agregados = [];
+            agregados.push("Somos", "Nosotros");
+            agregados.push("los", "mejores", "del mundo");
+
+        alert(`Mensaje Original: \n${mensajeInicial}\n \nMensaje Modificado: \n${mensajeModificado}\n \nPalabras Eliminadas: \n${eliminado}\n \nPalabras Agregadas: \n${agregados}`);
     }
     
     
@@ -45,3 +50,4 @@ function modificarMensaje(){
             "\n\nValores Agregados:\n" + agregados +
             "\n\nSuma de los Elementos:\n" + suma);
     }
+    
