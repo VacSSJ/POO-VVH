@@ -2,12 +2,13 @@ console.log("Vinculado");
 
 function identificarMayorEdad() {
     //Identificar si es mayor de edad
+    let resultado = "";
     let edad = prompt("Por favor, ingrese su edad:");
 
     if(edad >= 18){
-        alert("Es mayor de edad.");
+        resultado = `Es mayor de edad. - tiene: <h2>${edad}</h2>`;
         } else {
-            alert("Es menor de edad.");
+        resultado = `Es menor de edad. - tiene: <h2>${edad}</h2>`;
         }
-
+    document.getElementById('lista').innerHTML = resultado;
 }
