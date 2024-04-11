@@ -5,10 +5,11 @@ console.log("Vinculado");
 function contarWhile() {
     let contador = 1;
     let array = [];
-    
+    let suma = 0;
 
     while (contador <= 10) {
         array.push(contador);
+        suma += contador;
         contador++;
         
 
