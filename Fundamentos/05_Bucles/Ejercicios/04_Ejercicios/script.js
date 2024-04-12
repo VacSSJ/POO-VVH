@@ -7,7 +7,7 @@ function contarFor() {
     let array = [];
     
 
-    for (let numeroMayor = 0; numeroMayor < 5; numeroMayor++) {
+    for (let numeroMayor = 0; numeroMayor < 5; numeroMayor--) {
         array.push(i);
         
     }

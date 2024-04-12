@@ -14,5 +14,5 @@ function contarWhile() {
         
 
     }
-    document.getElementById("lista").innerHTML = `<p>Suma del 0 al 10 con While:</p> <br><h2>${array}</h2>`;
+    document.getElementById("lista").innerHTML = `<p>Suma del 0 al 10 con While:</p> <h3>${array.join("+")}</h3>\n<h2>${suma}</h2>`;
 }
