@@ -3,15 +3,17 @@ console.log("Vinculado");
 /* Escribe un programa que utilice un bucle 'for' para mostrar el número mayor en una página HTML. */
 //Ejercicio con For
 function contarFor() {
-    let numeroMayor = parseInt(prompt("Ingrese un número: "));
     let array = [];
+    let numeroMayor = 0;
     
 
-    for (let numeroMayor = 0; numeroMayor < 5; numeroMayor--) {
-        array.push(i);
-        
+    for (let i = 0; i < 5; i++) {
+        let num = parseInt(prompt("Ingrese un número para determinar el número mayor: "));
+        array.push(num);
+        if (numeroMayor < num) numeroMayor = num;
     }
-    document.getElementById("lista").innerHTML = `<p>Los 5 números son:</p> <br><h2>${array}</h2>`;
+    //numeroMayor = (numeroMayor < num) ? numeroMayor : num;
+    document.getElementById("lista").innerHTML = `<p>De los 5 números que ha ingresado:</p> <h2>${array.join(", ")}</h2> <h2>Número mayor: ${numeroMayor}</h2>`;
     }
     
 
