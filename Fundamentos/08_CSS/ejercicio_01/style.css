@@ -1,0 +1,34 @@
+.container{
+
+margin: 5px;
+padding: 20px ;
+background-color: rgb(206, 14, 148);
+}
+
+.top-nav {
+background-color: rgb(102, 60, 201);
+padding: 30px;
+}
+
+.side-nav {
+
+display: inline-block;
+
+}
+
+.main {
+
+display: inline-block;
+vertical-align: top;
+
+}
+
+.sub-content {
+
+display: inline-block;
+
+}
+
+#advertisement {
+background-color: purple;
+}
